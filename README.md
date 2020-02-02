@@ -30,7 +30,7 @@ The resulting drawing is then translated in PostScript and it produces a EPS fil
 where * *n* * is the number of rounds of rewriting applied to the initial sequence (i.e. the axiom).
 
 # What I Learned 
-
-* How to use the package org.json and its classes (JSONObject and JSONArray)
+* How to effectively use iterators to sort through iterable structures
+* How to use the package [org.json](http://stleary.github.io/JSON-java/index.html) and its classes (JSONObject and JSONArray)
 * How to parse a JSON file to initialize a program
-* PostScript language and eps files
+* PostScript language and .eps files
