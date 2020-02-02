@@ -27,7 +27,7 @@ The resulting drawing is then translated in PostScript and it produces a EPS fil
 % java -cp build/classes:lib/json-java.jar lindenmayer.Plotter sierpinski.json n
 % epstopdf test/buisson5.eps 
 ```
-where **n** is the number of rounds of rewriting applied to the initial sequence (i.e. the axiom).
+where * *n* * is the number of rounds of rewriting applied to the initial sequence (i.e. the axiom).
 
 # What I Learned 
 
