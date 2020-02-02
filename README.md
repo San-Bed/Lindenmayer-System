@@ -1,6 +1,6 @@
 # Lindenmayer-System
 
-This program draws random geometric structures with a L-System (see https://en.wikipedia.org/wiki/L-system). The system is initialized with a JSON file with the keys. An example is:
+This program draws random geometric structures with a [LSystem] (https://en.wikipedia.org/wiki/L-system). The system is initialized with a JSON file specifying the keys. An example is:
 
 ```
 {
@@ -23,11 +23,12 @@ The resulting drawing is then translated in PostScript and it produces a EPS fil
 
 # How to Run it
 
-n is the number of rounds of rewriting applied to the initial sequence (i.e. the axiom).
 ```
-% java -cp build/classes:lib/json-java.jar lindenmayer.Plotter fileName.json n > test/buisson5.eps
+% java -cp build/classes:lib/json-java.jar lindenmayer.Plotter sierpinski.json n
 % epstopdf test/buisson5.eps 
 ```
+where ** n ** is the number of rounds of rewriting applied to the initial sequence (i.e. the axiom).
+
 # What I Learned 
 
 * How to use the package org.json and its classes (JSONObject and JSONArray)
