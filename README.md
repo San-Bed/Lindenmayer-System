@@ -1,6 +1,6 @@
 # Lindenmayer-System
 
-This program draws random geometric structures with a [LSystem](https://en.wikipedia.org/wiki/L-system). The system is initialized with a JSON file specifying the keys. An example is:
+This project was made for my IFT 2015 - Data Structures class. It draws random geometric structures with a [LSystem](https://en.wikipedia.org/wiki/L-system). The system is initialized with a JSON file specifying the keys. An example is:
 
 ```
 {
