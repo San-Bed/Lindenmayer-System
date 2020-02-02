@@ -12,14 +12,14 @@ This project was made for my IFT 2015 - Data Structures class. It draws random g
 }
 ```
 
-We generate sequences by applying rules on the axiom for a specified number of times. If a symbol has multiples rules, one is chosen randomly. This allows to create multiple unique structures. For instance,
+We generate sequences by applying rules on the axiom for a specified number of times. If a symbol has multiples rules, one is chosen randomly. This allows to create multiple unique structures. For instance:
 
 ```
 F → F-F
 F-F → FF+-F-F
 FF+-F-F → F[+F]F[-F]FF-F+-F-F-FF+
 ```
-The resulting drawing is then translated in PostScript and it produces a EPS file.  
+The resulting drawing is then translated in PostScript and can be used to produce a .eps file.  
 
 # How to Run it
 
